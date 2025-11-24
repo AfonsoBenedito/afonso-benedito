@@ -1,0 +1,137 @@
+{
+  "personal_info": {
+    "name": "Afonso Benedito",
+    "title": "{Data, Software} Engineer",
+    "description": "Highly motivated in data engineering or software development. I have good learning skills, especially for topics that interest me. Generous and concerned with the well-being of others. Present and a good friend. Shy at first, then good company with a deep sense of humor",
+    "image": "assets/profile.png"
+  },
+  "skills": [
+    "Python",
+    "Java",
+    "GCP",
+    "Docker",
+    "AWS",
+    "Airflow",
+    "SQL",
+    "JavaScript",
+    "MongoDB",
+    "BigQuery",
+    "GoLang",
+    "DBT",
+    "HTML",
+    "CSS",
+    "ReactJS",
+    "NodeJS"
+  ],
+  "projects": [
+    {
+      "category": "Personal Projects",
+      "items": [
+        {
+          "name": "Portfolio Website",
+          "description": "A personal portfolio website to showcase my projects and skills.",
+          "url": "",
+          "languages": ["HTML", "CSS", "JavaScript"],
+          "image": "assets/portfolio.png"
+        }
+      ]
+    },
+    {
+      "category": "College Projects",
+      "items": [
+        {
+          "name": "E-Commerce",
+          "description": "E-Commerce in the Cloud. MERN Framework hosted in AWS",
+          "url": "",
+          "languages": ["React", "Node.js", "MongoDB", "AWS", "ExpressJS"],
+          "image": "assets/portfolio.png",
+          "grade": "18/20"
+        },
+        {
+          "name": "Multiplayer Chess Game",
+          "description": "Chess Web Application",
+          "url": "",
+          "languages": ["Java", "mySQL", "Docker"],
+          "image": "assets/portfolio.png",
+          "grade": "20/20"
+        },
+        {
+          "name": "Volunteering Website",
+          "description": "Web Application and Web Service.",
+          "url": "",
+          "languages": ["HTML", "CSS", "JavaScript", "mySQL", "php"],
+          "image": "assets/portfolio.png",
+          "grade": "20/20"
+        },
+        {
+          "name": "Memory Game",
+          "description": "Card Game",
+          "url": "",
+          "languages": ["HTML", "CSS", "JavaScript"],
+          "image": "assets/portfolio.png",
+          "grade": "20/20"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "category": "Work",
+      "timeline": [
+        {
+          "title": "Freelance Web Developer",
+          "start_date": "12/2020",
+          "end_date": "03/2021",
+          "description": "I worked as a freelancer, having developed two web applications that are present at \"Núcleo Museológico de Alverca\".",
+          "languages_and_tools": ["ReactJS", "CSS"]
+        },
+        {
+          "title": "Junior Data Engineer",
+          "start_date": "10/2022",
+          "end_date": "04/2023",
+          "description": "I worked as a Data Engineer in a banking related project.",
+          "languages_and_tools": ["Oracle SQL", "ODI", "Microstrategy"]
+        },
+        {
+          "title": "Data Engineer",
+          "start_date": "08/2023",
+          "end_date": "Present",
+          "description": "Currently working as a Data Engineer, focusing on data pipelines and cloud technologies.",
+          "languages_and_tools": ["Python", "Java", "Airflow", "BigQuery", "SQL", "DBT", "GCP", "AWS"]
+        }
+      ]
+    },
+    {
+      "category": "Education",
+      "timeline": [
+        {
+          "title": "Bachelor's Degree in Information Technology",
+          "institution": "Faculdade de Ciências da Universidade de Lisboa",
+          "start_date": "09/2019",
+          "end_date": "06/2022"
+        }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Cloud Practitioner (CLF-C02)",
+      "institution": "Amazon Web Services",
+      "id": "bdb8247f9a234779a96904970632c030",
+      "url": "https://www.credly.com/badges/396b8289-69b6-4658-ae69-07a91fc1b850/linked_in_profile"
+    }
+  ],
+  "socials": {
+    "email": "afonso.benedito23@gmail.com",
+    "github": "https://github.com/AfonsoBenedito",
+    "linkedin": "https://www.linkedin.com/in/afonsobenedito/"
+  },
+  "interests": [
+    "Reading",
+    "Hiking",
+    "Playing the Guitar",
+    "Camping",
+    "Play Tennis and Padel",
+    "Travel"
+  ]
+}
