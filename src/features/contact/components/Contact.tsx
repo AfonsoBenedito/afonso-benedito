@@ -1,14 +1,20 @@
-import info from '../data/info.json';
+import info from '../../../config/info.json';
+
+interface Socials {
+    email: string;
+    github: string;
+    linkedin: string;
+}
 
 const Contact = () => {
-    const { email, github, linkedin } = info.socials;
+    const { email, github, linkedin } = info.socials as Socials;
 
     return (
-        <section id="contact" className="py-24 min-h-[50vh] flex flex-col justify-center">
+        <section id="contact" className="py-8 md:py-16 min-h-[40vh] flex flex-col justify-center">
             <div className="max-w-4xl mx-auto w-full text-center">
-                <h2 className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-8">Contact</h2>
+                <h2 className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-2 md:mb-6">Contact</h2>
 
-                <h3 className="text-3xl md:text-5xl font-light text-gray-900 mb-12">
+                <h3 className="text-3xl md:text-5xl font-light text-gray-900 mb-3">
                     Let's work together.
                 </h3>
 
@@ -20,7 +26,7 @@ const Contact = () => {
                         {email}
                     </a>
 
-                    <div className="flex gap-8 mt-8">
+                    <div className="flex gap-8 mt-1">
                         {github && (
                             <a href={github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary-600 transition-colors text-sm uppercase tracking-wider font-medium">
                                 GitHub
