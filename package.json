@@ -1,11 +1,11 @@
 {
-  "name": "portfolio",
+  "name": "afonso-benedito",
   "private": true,
   "version": "0.0.0",
   "homepage": "https://afonsobenedito.github.io/afonso-benedito",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npm install && vite",
     "build": "vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
