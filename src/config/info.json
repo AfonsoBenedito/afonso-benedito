@@ -169,7 +169,8 @@
         {
           "name": "Memory Game",
           "description": "Card Game",
-          "url": "",
+          "github": "https://github.com/AfonsoBenedito/memory-game",
+          "url": "https://afonsobenedito.com/memory-game/",
           "image": "projects/college/memory_game.png",
           "languages": [
             "HTML",
