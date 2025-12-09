@@ -10,7 +10,7 @@ const About = () => {
     const skills = info.skills as string[];
     const interests = info.interests as string[];
 
-    const [sectionRef, isVisible] = useInView({ threshold: 0.5 });
+    const [sectionRef, isVisible] = useInView({ threshold: 0.5, keepVisibleOnScrollPast: true });
 
     return (
         <section
