@@ -1,30 +1,20 @@
-import Hero from '../components/Hero';
-import About from '../features/about/components/About';
-import Experience from '../features/experience/components/Experience';
-import Education from '../features/education/components/Education';
-import Projects from '../features/projects/components/Projects';
-import Contact from '../features/contact/components/Contact';
-
-import FloatingAction from '../components/FloatingAction';
-
-import Header from '../components/Header';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from '../features/home/Home';
+import Loader from '../features/loader/Loader';
 
 function App() {
+  // Check if we are on the repo-name path (GitHub Pages default or explicit use)
+  const isRepoPath = window.location.pathname.startsWith('/afonso-benedito');
+  // If so, use that as base. Otherwise (root on custom domain), use '/'
+  const basename = isRepoPath ? '/afonso-benedito/' : '/';
+
   return (
-    <div className="font-sans antialiased text-gray-900 bg-slate-50 min-h-screen selection:bg-primary-200 selection:text-primary-900 pt-12 md:pt-20">
-      <Header />
-
-      <main className="px-4 md:px-12 lg:px-24 pb-6 md:pb-12">
-        <Hero />
-        <About />
-        <Experience />
-        <Education />
-        <Projects />
-        <Contact />
-      </main>
-
-      <FloatingAction />
-    </div >
+    <BrowserRouter basename={basename}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/loader" element={<Loader />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
