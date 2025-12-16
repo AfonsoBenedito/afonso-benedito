@@ -1,9 +1,11 @@
+import { Suspense, lazy } from 'react';
 import Hero from '../../components/Hero';
-import About from '../../features/about/components/About';
-import Experience from '../../features/experience/components/Experience';
-import Education from '../../features/education/components/Education';
-import Projects from '../../features/projects/components/Projects';
-import Contact from '../../features/contact/components/Contact';
+
+const About = lazy(() => import('../../features/about/components/About'));
+const Experience = lazy(() => import('../../features/experience/components/Experience'));
+const Education = lazy(() => import('../../features/education/components/Education'));
+const Projects = lazy(() => import('../../features/projects/components/Projects'));
+const Contact = lazy(() => import('../../features/contact/components/Contact'));
 
 import FloatingAction from '../../components/FloatingAction';
 
@@ -16,11 +18,13 @@ function Home() {
 
       <main className="px-4 md:px-12 lg:px-24 pb-6 md:pb-12">
         <Hero />
-        <About />
-        <Experience />
-        <Education />
-        <Projects />
-        <Contact />
+        <Suspense fallback={<div className="py-12 text-center text-gray-400">Loading section...</div>}>
+          <About />
+          <Experience />
+          <Education />
+          <Projects />
+          <Contact />
+        </Suspense>
       </main>
 
       <FloatingAction />

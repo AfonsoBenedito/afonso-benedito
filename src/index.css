@@ -6,3 +6,19 @@ html {
     scroll-padding-top: 100px;
     scroll-behavior: smooth;
 }
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#root {
+    animation: fadeInDown 1.0s ease-out forwards;
+}

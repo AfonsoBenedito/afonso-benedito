@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from '../features/home/Home';
-import Loader from '../features/loader/Loader';
+import { Suspense, lazy } from 'react';
+
+const Home = lazy(() => import('../features/home/Home'));
+const Loader = lazy(() => import('../features/loader/Loader'));
 
 function App() {
   // Check if we are on the repo-name path (GitHub Pages default or explicit use)
@@ -10,10 +12,12 @@ function App() {
 
   return (
     <BrowserRouter basename={basename}>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/loader" element={<Loader />} />
-      </Routes>
+      <Suspense fallback={<div className="min-h-screen bg-slate-50" />}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/loader" element={<Loader />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }
