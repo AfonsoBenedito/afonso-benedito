@@ -145,6 +145,7 @@
           "name": "Multiplayer Chess Game",
           "description": "Chess Web Application",
           "github": "https://github.com/AfonsoBenedito/ChessBookWeb",
+          "url": "https://afonsobenedito.com/chess/",
           "image": "projects/college/multiplayer_chess_game.webp",
           "languages": [
             "Java",
