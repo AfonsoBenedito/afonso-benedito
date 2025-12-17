@@ -157,7 +157,8 @@
         {
           "name": "Volunteering Website",
           "description": "Web Application and Web Service.",
-          "url": "",
+          "url": "https://afonsobenedito.com/volunteering/",
+          "image": "projects/college/volunteering_website.png",
           "languages": [
             "HTML",
             "CSS",
