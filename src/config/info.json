@@ -131,7 +131,8 @@
         {
           "name": "E-Commerce",
           "description": "E-Commerce in the Cloud. MERN Framework hosted in AWS",
-          "url": "",
+          "url": "https://afonsobenedito.com/baylit-loader/",
+          "image": "projects/college/baylit.png",
           "languages": [
             "React",
             "Node.js",
