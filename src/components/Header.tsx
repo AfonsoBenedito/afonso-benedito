@@ -1,3 +1,4 @@
+import { createPortal } from 'react-dom';
 import { useScrollSpy } from '../hooks/useScrollSpy';
 import Navigation from './Navigation';
 
@@ -17,7 +18,7 @@ const Header = () => {
         { label: 'Contact', href: '#contact' },
     ];
 
-    return (
+    const headerContent = (
         <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-1 py-3 md:px-12 lg:px-24 bg-white/80 backdrop-blur-md border-b border-gray-100/50 transition-all duration-300">
             <a href="#" className="flex items-center gap-1 md:gap-2 group flex-shrink-0">
                 <div className="relative w-6 h-6 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-primary-100 group-hover:border-primary-600 transition-colors">
@@ -34,6 +35,8 @@ const Header = () => {
             <Navigation navItems={navItems} activeSection={activeSection} />
         </header>
     );
+
+    return createPortal(headerContent, document.body);
 };
 
 export default Header;
