@@ -8,6 +8,7 @@
   "skills": [
     "Python",
     "Java",
+    "Kotlin",
     "GCP",
     "Docker",
     "AWS",
@@ -94,6 +95,12 @@
   ],
   "certifications": [
     {
+      "title": "AWS Certified Solutions Architect Associate (SAA-C03)",
+      "institution": "Amazon Web Services",
+      "id": "bdb8247f9a234779a96904970632c030",
+      "url": "https://www.credly.com/badges/d29c819d-436a-44ce-a92a-22dcb8f89c8e"
+    },
+    {
       "title": "AWS Certified AI Practitioner (AIF-C01)",
       "institution": "Amazon Web Services",
       "id": "bdb8247f9a234779a96904970632c030",
@@ -120,7 +127,6 @@
             "JavaScript"
           ],
           "image": "projects/personal/portfolio.png",
-          "url": "https://afonsobenedito.com/",
           "github": "https://github.com/afonsobenedito/portfolio"
         }
       ]
@@ -168,6 +174,18 @@
             "php"
           ],
           "grade": "20/20"
+        },
+        {
+          "name": "Memento",
+          "description": "Web Application that served as a Prototype.",
+          "url": "https://afonsobenedito.com/memento/",
+          "github": "https://github.com/AfonsoBenedito/Memento",
+          "image": "projects/college/memento.png",
+          "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ]
         },
         {
           "name": "Memory Game",
