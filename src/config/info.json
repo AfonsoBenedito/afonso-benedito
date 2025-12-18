@@ -131,7 +131,8 @@
         {
           "name": "E-Commerce",
           "description": "E-Commerce in the Cloud. MERN Framework hosted in AWS",
-          "url": "",
+          "url": "https://afonsobenedito.com/baylit-loader/",
+          "image": "projects/college/baylit.png",
           "languages": [
             "React",
             "Node.js",
@@ -145,6 +146,7 @@
           "name": "Multiplayer Chess Game",
           "description": "Chess Web Application",
           "github": "https://github.com/AfonsoBenedito/ChessBookWeb",
+          "url": "https://afonsobenedito.com/chess/",
           "image": "projects/college/multiplayer_chess_game.webp",
           "languages": [
             "Java",
@@ -156,7 +158,8 @@
         {
           "name": "Volunteering Website",
           "description": "Web Application and Web Service.",
-          "url": "",
+          "url": "https://afonsobenedito.com/volunteering/",
+          "image": "projects/college/volunteering_website.png",
           "languages": [
             "HTML",
             "CSS",
