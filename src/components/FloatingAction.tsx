@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import info from '../config/info.json';
 import ArrowUpIcon from './icons/ArrowUpIcon';
 import EmailIcon from './icons/EmailIcon';
@@ -20,6 +21,9 @@ const FloatingAction = () => {
             }
         };
 
+        // Check initial scroll position
+        handleScroll();
+
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
@@ -31,8 +35,8 @@ const FloatingAction = () => {
         });
     };
 
-    return (
-        <div className="fixed bottom-8 right-6 z-40">
+    const buttonContent = (
+        <div className="fixed bottom-8 right-6 z-[60] pointer-events-none">
             <button
                 onClick={() => {
                     if (showScrollTop) {
@@ -41,7 +45,7 @@ const FloatingAction = () => {
                         window.location.href = `mailto:${email}`;
                     }
                 }}
-                className="w-14 h-14 bg-primary-600 rounded-full flex items-center justify-center text-white hover:bg-primary-700 transition-all shadow-lg hover:shadow-primary-200 hover:-translate-y-1 relative overflow-hidden"
+                className="w-14 h-14 bg-primary-600 rounded-full flex items-center justify-center text-white hover:bg-primary-700 transition-all shadow-lg hover:shadow-primary-200 hover:-translate-y-1 relative overflow-hidden pointer-events-auto"
                 aria-label={showScrollTop ? "Scroll to top" : "Send Email"}
             >
                 <ArrowUpIcon
@@ -53,6 +57,8 @@ const FloatingAction = () => {
             </button>
         </div>
     );
+
+    return createPortal(buttonContent, document.body);
 };
 
 export default FloatingAction;
