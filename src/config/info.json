@@ -170,6 +170,18 @@
           "grade": "20/20"
         },
         {
+          "name": "Memento",
+          "description": "Web Application that served as a Prototype.",
+          "url": "https://afonsobenedito.com/memento/",
+          "github": "https://github.com/AfonsoBenedito/Memento",
+          "image": "projects/college/memento.png",
+          "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ]
+        },
+        {
           "name": "Memory Game",
           "description": "Card Game",
           "github": "https://github.com/AfonsoBenedito/memory-game",
