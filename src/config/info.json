@@ -118,6 +118,18 @@
       "category": "Personal Projects",
       "items": [
         {
+          "name": "Werewolf",
+          "description": "A web version of the classic social deduction game \"Werewolf\" (Mafia).",
+          "url": "http://34.77.188.136:3000/",
+          "languages": [
+            "Kotlin",
+            "SpringBoot",
+            "ReactJs",
+            "Redis"
+          ],
+          "image": "projects/personal/werewolf.png"
+        },
+        {
           "name": "Portfolio Website",
           "description": "A personal portfolio website to showcase my projects and skills.",
           "url": "https://afonsobenedito.com/",
