@@ -119,13 +119,14 @@
       "items": [
         {
           "name": "Werewolf",
-          "description": "A web version of the classic social deduction game \"Werewolf\" (Mafia).",
-          "url": "http://34.77.188.136:3000/",
+          "description": "Online multiplayer Werewolf party game with real-time gameplay via WebSockets.",
+          "url": "https://werewolf.afonsobenedito.com/",
           "languages": [
             "Kotlin",
-            "SpringBoot",
-            "ReactJs",
-            "Redis"
+            "React",
+            "TypeScript",
+            "Redis",
+            "Docker"
           ],
           "image": "projects/personal/werewolf.png"
         },
