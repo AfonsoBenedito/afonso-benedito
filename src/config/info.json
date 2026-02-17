@@ -118,6 +118,20 @@
       "category": "Personal Projects",
       "items": [
         {
+          "name": "Werewolf",
+          "description": "Online multiplayer Werewolf party game with real-time gameplay via WebSockets.",
+          "url": "https://werewolf.afonsobenedito.com/",
+          "languages": [
+            "Kotlin",
+            "React",
+            "TypeScript",
+            "Redis",
+            "Docker"
+          ],
+          "image": "projects/personal/werewolf.png",
+          "github": "https://github.com/AfonsoBenedito/Werewolf"
+        },
+        {
           "name": "Portfolio Website",
           "description": "A personal portfolio website to showcase my projects and skills.",
           "url": "https://afonsobenedito.com/",
