@@ -128,7 +128,8 @@
             "Redis",
             "Docker"
           ],
-          "image": "projects/personal/werewolf.png"
+          "image": "projects/personal/werewolf.png",
+          "github": "https://github.com/AfonsoBenedito/Werewolf"
         },
         {
           "name": "Portfolio Website",
