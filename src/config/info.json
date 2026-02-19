@@ -160,7 +160,8 @@
             "AWS",
             "ExpressJS"
           ],
-          "grade": "18/20"
+          "grade": "18/20",
+          "github": "https://github.com/AfonsoBenedito/BayLit"
         },
         {
           "name": "Multiplayer Chess Game",
@@ -187,7 +188,8 @@
             "mySQL",
             "php"
           ],
-          "grade": "20/20"
+          "grade": "20/20",
+          "github": "https://github.com/AfonsoBenedito/asw-grupo24"
         },
         {
           "name": "Memento",
