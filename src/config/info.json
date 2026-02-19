@@ -119,16 +119,18 @@
       "items": [
         {
           "name": "Werewolf",
-          "description": "Online multiplayer Werewolf party game with real-time gameplay via WebSockets.",
+          "description": "A personal end-to-end project - from game design to cloud deployment - building a real-time multiplayer web game based on the classic social deduction party game Werewolf, playable by anyone, anywhere.",
           "url": "https://werewolf.afonsobenedito.com/",
           "languages": [
             "Kotlin",
+            "Spring Boot",
             "React",
             "TypeScript",
             "Redis",
             "Docker"
           ],
-          "image": "projects/personal/werewolf.png"
+          "image": "projects/personal/werewolf.png",
+          "github": "https://github.com/AfonsoBenedito/Werewolf"
         },
         {
           "name": "Portfolio Website",
@@ -148,22 +150,8 @@
       "category": "College Projects",
       "items": [
         {
-          "name": "E-Commerce",
-          "description": "E-Commerce in the Cloud. MERN Framework hosted in AWS",
-          "url": "https://afonsobenedito.com/baylit-loader/",
-          "image": "projects/college/baylit.png",
-          "languages": [
-            "React",
-            "Node.js",
-            "MongoDB",
-            "AWS",
-            "ExpressJS"
-          ],
-          "grade": "18/20"
-        },
-        {
           "name": "Multiplayer Chess Game",
-          "description": "Chess Web Application",
+          "description": "A real-time online chess platform where players can compete against each other.",
           "github": "https://github.com/AfonsoBenedito/ChessBookWeb",
           "url": "https://afonsobenedito.com/chess/",
           "image": "projects/college/multiplayer_chess_game.webp",
@@ -175,8 +163,25 @@
           "grade": "20/20"
         },
         {
+          "name": "E-Commerce",
+          "description": "A e-commerce platform built around sustainable living. Covers the complete shopping journey - from browsing to checkout - with multi-role support for customers, suppliers, and administrators.",
+          "url": "https://afonsobenedito.com/baylit-loader/",
+          "image": "projects/college/baylit.png",
+          "languages": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "ExpressJS",
+            "MongoDB",
+            "AWS",
+            "Stripe"
+          ],
+          "grade": "18/20",
+          "github": "https://github.com/AfonsoBenedito/BayLit"
+        },
+        {
           "name": "Volunteering Website",
-          "description": "Web Application and Web Service.",
+          "description": "A web platform developed during the COVID-19 pandemic to connect volunteers with institutions  in need, making it easier for people to find and join meaningful causes in their community. ",
           "url": "https://afonsobenedito.com/volunteering/",
           "image": "projects/college/volunteering_website.png",
           "languages": [
@@ -186,11 +191,12 @@
             "mySQL",
             "php"
           ],
-          "grade": "20/20"
+          "grade": "20/20",
+          "github": "https://github.com/AfonsoBenedito/Volunteering-Website"
         },
         {
           "name": "Memento",
-          "description": "Web Application that served as a Prototype.",
+          "description": "A personal photo manager where you can create albums, tag people, track your most-viewed photos, and share them - built entirely from scratch without any external tools or libraries.",
           "url": "https://afonsobenedito.com/memento/",
           "github": "https://github.com/AfonsoBenedito/Memento",
           "image": "projects/college/memento.png",
@@ -202,7 +208,7 @@
         },
         {
           "name": "Memory Game",
-          "description": "Card Game",
+          "description": "A browser-based memory card, featuring multiple cartoon themes, game modes, and real-time multiplayer - all brought to life through a hand-crafted world map and an original mascot, Berry the Bear.",
           "github": "https://github.com/AfonsoBenedito/memory-game",
           "url": "https://afonsobenedito.com/memory-game/",
           "image": "projects/college/memory_game.png",
