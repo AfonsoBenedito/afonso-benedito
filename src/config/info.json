@@ -150,15 +150,17 @@
       "items": [
         {
           "name": "E-Commerce",
-          "description": "E-Commerce in the Cloud. MERN Framework hosted in AWS",
+          "description": "A e-commerce platform built around sustainable living. Covers the complete shopping journey - from browsing to checkout - with multi-role support for customers, suppliers, and administrators.",
           "url": "https://afonsobenedito.com/baylit-loader/",
           "image": "projects/college/baylit.png",
           "languages": [
+            "JavaScript",
             "React",
             "Node.js",
+            "ExpressJS",
             "MongoDB",
             "AWS",
-            "ExpressJS"
+            "Stripe"
           ],
           "grade": "18/20",
           "github": "https://github.com/AfonsoBenedito/BayLit"
