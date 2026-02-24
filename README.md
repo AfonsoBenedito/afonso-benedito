@@ -65,7 +65,7 @@ Personal portfolio website showcasing my work, skills, and professional journey.
 | **Hero** | Welcome message with profile photo and animated introduction |
 | **About** | Personal description, skills (Python, Java, GCP, AWS, ...), and interests |
 | **Experience** | Work history timeline — Freelancer, Hitachi Vantara, TripAdvisor |
-| **Education** | BSc in Computer Science (ULisboa) and AWS certifications |
+| **Education** | BSc in Information Technology (ULisboa) and AWS certifications |
 | **Projects** | College and personal projects with live demos and screenshots |
 | **Contact** | Email form and social media links |
 
@@ -73,7 +73,7 @@ Personal portfolio website showcasing my work, skills, and professional journey.
 
 ## Getting Started
 
-**Prerequisites:** [Node.js](https://nodejs.org/) (v18+)
+**Prerequisites:** [Node.js](https://nodejs.org/) (v22+)
 
 ```bash
 # Clone the repository
@@ -81,7 +81,7 @@ git clone https://github.com/afonsobenedito/afonso-benedito.git
 cd afonso-benedito
 
 # Install dependencies & start dev server
-npm run dev
+make local-up
 ```
 
 Open [http://localhost:5173/afonso-benedito/](http://localhost:5173/afonso-benedito/) in your browser.
