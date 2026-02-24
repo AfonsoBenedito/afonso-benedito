@@ -119,10 +119,11 @@
       "items": [
         {
           "name": "Werewolf",
-          "description": "Online multiplayer Werewolf party game with real-time gameplay via WebSockets.",
+          "description": "A personal end-to-end project - from game design to cloud deployment - building a real-time multiplayer web game based on the classic social deduction party game Werewolf, playable by anyone, anywhere.",
           "url": "https://werewolf.afonsobenedito.com/",
           "languages": [
             "Kotlin",
+            "Spring Boot",
             "React",
             "TypeScript",
             "Redis",
