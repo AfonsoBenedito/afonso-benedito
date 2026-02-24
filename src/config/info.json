@@ -195,7 +195,7 @@
         },
         {
           "name": "Memento",
-          "description": "Web Application that served as a Prototype.",
+          "description": "A personal photo manager where you can create albums, tag people, track your most-viewed photos, and share them - built entirely from scratch without any external tools or libraries.",
           "url": "https://afonsobenedito.com/memento/",
           "github": "https://github.com/AfonsoBenedito/Memento",
           "image": "projects/college/memento.png",
