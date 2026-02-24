@@ -150,6 +150,19 @@
       "category": "College Projects",
       "items": [
         {
+          "name": "Multiplayer Chess Game",
+          "description": "A real-time online chess platform where players can compete against each other.",
+          "github": "https://github.com/AfonsoBenedito/ChessBookWeb",
+          "url": "https://afonsobenedito.com/chess/",
+          "image": "projects/college/multiplayer_chess_game.webp",
+          "languages": [
+            "Java",
+            "mySQL",
+            "Docker"
+          ],
+          "grade": "20/20"
+        },
+        {
           "name": "E-Commerce",
           "description": "A e-commerce platform built around sustainable living. Covers the complete shopping journey - from browsing to checkout - with multi-role support for customers, suppliers, and administrators.",
           "url": "https://afonsobenedito.com/baylit-loader/",
@@ -165,19 +178,6 @@
           ],
           "grade": "18/20",
           "github": "https://github.com/AfonsoBenedito/BayLit"
-        },
-        {
-          "name": "Multiplayer Chess Game",
-          "description": "A real-time online chess platform where players can compete against each other.",
-          "github": "https://github.com/AfonsoBenedito/ChessBookWeb",
-          "url": "https://afonsobenedito.com/chess/",
-          "image": "projects/college/multiplayer_chess_game.webp",
-          "languages": [
-            "Java",
-            "mySQL",
-            "Docker"
-          ],
-          "grade": "20/20"
         },
         {
           "name": "Volunteering Website",
