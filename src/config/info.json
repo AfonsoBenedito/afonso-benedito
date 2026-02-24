@@ -207,7 +207,7 @@
         },
         {
           "name": "Memory Game",
-          "description": "Card Game",
+          "description": "A browser-based memory card, featuring multiple cartoon themes, game modes, and real-time multiplayer - all brought to life through a hand-crafted world map and an original mascot, Berry the Bear.",
           "github": "https://github.com/AfonsoBenedito/memory-game",
           "url": "https://afonsobenedito.com/memory-game/",
           "image": "projects/college/memory_game.png",
