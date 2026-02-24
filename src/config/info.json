@@ -167,7 +167,7 @@
         },
         {
           "name": "Multiplayer Chess Game",
-          "description": "Chess Web Application",
+          "description": "A real-time online chess platform where players can compete against each other.",
           "github": "https://github.com/AfonsoBenedito/ChessBookWeb",
           "url": "https://afonsobenedito.com/chess/",
           "image": "projects/college/multiplayer_chess_game.webp",
