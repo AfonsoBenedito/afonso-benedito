@@ -2,27 +2,24 @@
   "personal_info": {
     "name": "Afonso Benedito",
     "title": "{Data, Software} Engineer",
-    "description": "Highly motivated in data engineering or software development. I have good learning skills, especially for topics that interest me. Generous and concerned with the well-being of others. Present and a good friend. Shy at first, then good company with a deep sense of humor",
+    "description": "I'm a highly motivated {Data, Software} Engineer. I have good learning skills, especially for topics that interest me. Generous and concerned with the well-being of others. Shy at first, then good company with a deep sense of humor",
     "image": "assets/profile.jpeg"
   },
   "skills": [
     "Python",
     "Java",
     "Kotlin",
-    "GCP",
-    "Docker",
-    "AWS",
-    "Airflow",
-    "SQL",
     "JavaScript",
+    "Spring Boot",
+    "ReactJS",
+    "NodeJS",
+    "SQL",
     "MongoDB",
     "BigQuery",
-    "GoLang",
-    "DBT",
-    "HTML",
-    "CSS",
-    "ReactJS",
-    "NodeJS"
+    "Airflow",
+    "AWS",
+    "Google Cloud",
+    "Docker"
   ],
   "interests": [
     "Reading",
@@ -120,7 +117,7 @@
         {
           "name": "Werewolf",
           "description": "A personal end-to-end project - from game design to cloud deployment - building a real-time multiplayer web game based on the classic social deduction party game Werewolf, playable by anyone, anywhere.",
-          "url": "https://werewolf.afonsobenedito.com/",
+          "url": "https://werewolf-loader.afonsobenedito.com/",
           "languages": [
             "Kotlin",
             "Spring Boot",
