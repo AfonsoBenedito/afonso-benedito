@@ -140,6 +140,16 @@
           ],
           "image": "projects/personal/portfolio.png",
           "github": "https://github.com/afonsobenedito/portfolio"
+        },
+        {
+          "name": "Quiosque de Alverca",
+          "description": "Interactive digital kiosk for a Portuguese municipal museum, showcasing local history and cultural heritage through a multilingual, touchscreen-friendly experience.",
+          "url": "https://quiosque-alverca.afonsobenedito.com/",
+          "languages": [
+            "React"
+          ],
+          "image": "projects/personal/quiosque-alverca.png",
+          "github": "https://github.com/AfonsoBenedito/quiosque-alverca"
         }
       ]
     },
